@@ -10,8 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master', url: 'https://github.com/anotherdjgitter/WebApiJenkins.git',
-                credentialsId: 'f3cdd102-b6b8-4ea0-bf38-34702e347a14',
-                
+                credentialsId: 'f3cdd102-b6b8-4ea0-bf38-34702e347a14'  
             }
         }
 
