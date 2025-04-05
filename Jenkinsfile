@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'master', url: 'https://github.com/anotherdjgitter/WebApiJenkins.git',
                 credentialsId: 'f3cdd102-b6b8-4ea0-bf38-34702e347a14',
-                tool: 'Git' // Ensure this matches the name given in the Git configuration
+                
             }
         }
 
